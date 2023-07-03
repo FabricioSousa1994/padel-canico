@@ -6,7 +6,7 @@ import { getAllCourts } from "../api";
 
 function Courts() {
 
-  const [courts, setCourts] = useState();
+  const [courts, setCourts] = useState([]);
 
   useEffect(() => {
     async function handleCourts() {
@@ -17,7 +17,6 @@ function Courts() {
 
   }, [])
   
-
 
 
   return (
