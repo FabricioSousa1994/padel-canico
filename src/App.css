@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.logo {
+  max-height: 5rem;
+  object-fit: contain;
+  margin-left: 0;
+  border-radius: 50%;
+}
+
+.css-1lvtzne {
+  justify-content: center;
+}
+
+
+
+@media (max-width: 480px) {
+  .css-hfc4ec {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.home {
+  background-image: url("https://res.cloudinary.com/duy4rj4hd/image/upload/v1690761465/padel-canico/centro-padel_ys4xit.jpg");
+  background-size: cover;
+  height: 100vh;
+  
 }
